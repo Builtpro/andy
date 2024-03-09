@@ -1,0 +1,13 @@
+echo "# andy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Builtpro/andy.git
+git push -u origin main
+# https://tea.xyz/what-is-this-file
+---
+version: 1.0.0
+codeOwners:
+  - '0x8A467f93344B37f974e94B2c779E89955cC593A9'
+quorum: 1
